@@ -24,12 +24,13 @@
     return result;
 }
 ```
-### 调用
-```swift
-NSArray *digits = @[@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"10", @"11", @"12", @"13", @"14", @"15", @"16"];
+#### 调用
+```java
+    NSArray *digits = @[@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"10", @"11", 
+    @"12", @"13", @"14", @"15",@"16"];
     self.modNumber = 3;
     self.length = 0;
     NSArray *array = [self ll_digitModThreeWithDightArray:digits modelNumber:self.modNumber];
     NSLog(@"最后一个数字是：%@",[array lastObject]);
 ```
-### 好记性不如烂笔头
+#### 好记性不如烂笔头
